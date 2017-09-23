@@ -1,0 +1,418 @@
+
+<!DOCTYPE html>
+
+<html class="layout_8 page_351 layout_standard hasTopbanner hasLeftbanner hasBottombanner isLoggedIn isParent pagetype_default" > 
+
+<head>
+	
+		<title>ISA: Upper School</title>
+		<meta name="description" content="Upper School - International School of Amsterdam">
+		<meta name="keywords" content="Upper School, International School of Amsterdam">
+		<meta name="poweredby" content="finalsite.com">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		
+			
+			<meta http-equiv="Expires" content="0">
+			
+		<meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1">
+	
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1044.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script> 
+			<link rel="canonical" href="http://community.isa.nl/page.cfm?p=351">
+		
+
+		<link rel="stylesheet" href="styles.cfm?b=1506103013659">
+
+		<link type="text/css" rel="stylesheet" href="http://newcss.finalsite.com/170921/css/ss.css"> 
+		<style type="text/css">
+			body { background-color: #ffffff; margin-top:0px;margin-right:0;margin-bottom:0;margin-left:0px; color: #333333; font: 11px Arial, Helvetica, sans-serif; line-height: 140%; }
+			table {text-align:left;}
+			a {color:#660033;}
+			a:visited {color:#660033;}
+			a:active {color:#660033;}
+			input {font: 11px Arial, Helvetica, sans-serif; color: #333333;}
+			select {font: 11px Arial, Helvetica, sans-serif;}
+			textarea {font: 11px Arial, Helvetica, sans-serif; color: #333333;}
+			.buttons {font: 11px Arial, Helvetica, sans-serif; color:white; font-weight:bold; background-color:#660033;}
+			.text_misc, .text_misc td  {line-height: normal;}
+			.text_misc p {margin-top: 0px;}
+			.hier { font: 10px ; color: #ffffff; }
+			#topcontainer { text-align:center; }
+			#topbanner { width:1000px;  margin-top:0px; margin-right:auto; margin-left:auto; padding-top:8px; padding-right:0px; padding-bottom:0px; padding-left:0px;}
+			
+			#midcontainer { text-align:center;}
+			#mainmiddle { width:1000px; height:0px; margin-top:0px; margin-right:auto; margin-bottom:0px; margin-left:auto;  }
+			#contentdiv { min-height: 0px; height: 100%;  }
+			#bottomcontainer { text-align:center;}
+			#bottombanner { width:1000px;  margin-top:; margin-right:auto; margin-bottom:; margin-left:auto; padding-top:0px; padding-right:0; padding-bottom:5px; padding-left:0px; } 
+			#poweredby { padding-top: 5px; padding-bottom: 5px;  text-align: center; }
+			#poweredby div { width: 1000px;  margin: auto; text-align: left; }
+		</style>
+		
+		
+	
+	<link rel="alternate" type="application/rss+xml" title="All Categories" href="http://community.isa.nl/rss.cfm?news=0">
+	
+		<link rel="alternate" type="application/rss+xml" title="General News Alerts" href="http://community.isa.nl/rss.cfm?news=8">
+	
+		<link rel="alternate" type="application/rss+xml" title="Lower School News Alerts" href="http://community.isa.nl/rss.cfm?news=1">
+	
+		<link rel="alternate" type="application/rss+xml" title="PTA News Alerts" href="http://community.isa.nl/rss.cfm?news=10">
+	
+		<link rel="alternate" type="application/rss+xml" title="Upper School News Alerts" href="http://community.isa.nl/rss.cfm?news=2">
+	<script type="text/javascript" src="http://newjs.finalsite.com/170921/javascript/jQuery/jquery.min.js"></script> 
+			<script type="text/javascript"> var $j = jQuery.noConflict(); </script>
+			<script type="text/javascript" src="http://newjs.finalsite.com/170921/javascript/jQuery/jquery-migrate-1.2.1.fs-mini.min.js"></script><script type="text/javascript" src="http://newjs.finalsite.com/170921/javascript/fs_global.js"></script> 
+	<script type="text/javascript">
+			
+				window.name = 'finalsite_isamsterdam';
+			
+			var pageid = 351;
+			var pagearray = new Array();
+			pagearray[0] = 351;
+			
+			trackingpath = '/Upper School'; //Fix syntax highlighting "
+			
+				  var _gaq = _gaq || [];
+				  _gaq.push(['_setAccount', "UA-23962070-1"]);
+				  _gaq.push(['_trackPageview',trackingpath]);
+
+				  (function() {
+				    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+				  })();
+			
+		</script>
+	
+
+
+	<style type="text/css" media="screen">
+		#navtable_176{ list-style-type:none; margin: 0px 0px 0px 0px; padding:0;  }
+		#navtable_176 ul{list-style-type:none;margin:0;padding:0;}
+		#navtable_176 a, #navtable_176 a:link, #navtable_176 a:visited{display:block; color:#FFFFFF; padding-top:8px; padding-right:10px; padding-bottom:8px; padding-left:14px; margin-bottom:0px;  font-size:11px; font-weight: bold;text-decoration:none;}
+		#navtable_176 span{display:block;  background-image:none !important; }
+		/* 2nd level */
+		#navtable_176 ul a{color:#FFFFFF !important; background:none !important;padding-left:24px !important;border-color:transparent !important;font-size:11px !important;font-weight:bold !important;}
+		#navtable_176 ul a span{background-image:url('http://newimages.finalsite.com/170921/images/arrow_sgray6.gif') !important;background-position:left 3px !important;background-repeat:no-repeat !important;padding-left:12px;}
+
+		/* 3rd level */
+		#navtable_176 ul ul a {color:#FFFFFF !important;background:none !important;padding-left:36px !important;border-color:transparent !important;font-size:11px !important;font-weight:bold !important;}
+		#navtable_176 ul ul a span{background-image:url('http://newimages.finalsite.com/170921/images/arrow_sgray6.gif') !important;background-position:left 3px !important;background-repeat:no-repeat !important;padding-left:12px;}
+
+		/* On State */
+		#navtable_176 a.navon{ color:#ffffff !important;background:#336699 !important;font-weight:bold !important; }
+		#navtable_176 a.navon span{}
+		
+		/* Hover State */
+		#navtable_176 a:hover{color:#A60042 !important;background:#FFFFFF !important; }
+	</style>
+<link type="text/css" rel="stylesheet" href="http://newcss.finalsite.com/170921/css/portals/accountbar.css"> <link type="text/css" rel="stylesheet" href="http://newjs.finalsite.com/170921/javascript/jQuery/plugins/jGrowl/jquery.jgrowl.css"> <link type="text/css" rel="stylesheet" href="http://newjs.finalsite.com/170921/javascript/jQuery/plugins/qtip/jquery.qtip-2.0.min.css"> <link type="text/css" rel="stylesheet" href="http://newjs.finalsite.com/170921/javascript/jQuery/themes/finalsite/jquery.ui.1.8rc3.css"> <style type="text/css"></style>
+			<style type="text/css">
+			
+	#bannermod192 {  margin-left: 0px;  margin-right: 0px;  margin-top: 0px;  margin-bottom: 0px;  }
+	#bannermod192, #bannermod192 td {  }
+	#bannermod192 .bannermodtitle{  }
+	#bannermod192 .bannermodcontent { padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px;  }
+	
+	#bannermod193 {  margin-left: 0px;  margin-right: 0px;  margin-top: 10px;  margin-bottom: 10px;  }
+	#bannermod193, #bannermod193 td {  }
+	#bannermod193 .bannermodtitle{  }
+	#bannermod193 .bannermodcontent { padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px;  }
+	
+	#bannermod198 {  margin-left: 0px;  margin-right: 0px;  margin-top: 0px;  margin-bottom: 0px;  }
+	#bannermod198, #bannermod198 td { color: #ffffff;  }
+	#bannermod198 .bannermodtitle{  }
+	#bannermod198 .bannermodcontent { padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px;  }
+	#bannerdiv198 a {color: #ffffff} #bannerdiv198 a:visited {color: #ffffff} #bannerdiv198 a:active {color: #ffffff} 
+
+	.ui-account-bar .ui-tooltip-content{
+		padding: 5px;
+		background-color: #3565AC;
+		color: white;
+		text-align: left;
+		font-size: 1.3em;
+		line-height: 1.3em;
+		border-width: 5px;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+		border-color: #3565AC;
+		z-index: 100000;
+	}
+						
+	#bannermod176 {  margin-left: 0px;  margin-right: 0px;  margin-top: 0px;  margin-bottom: 0px;  }
+	#bannermod176, #bannermod176 td {  }	
+	#bannermod176 .bannermodtitle{  }	
+	#bannermod176 .bannermodtd { padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px;  }
+	
+	#bannermod60 {  margin-left: 0px; margin-right: 0px; margin-top: 0px; margin-bottom: 0px;}
+			#bannermod60, #bannermod60 td {color: #ffffff;}
+			#bannermod60 .bannermodcontent { padding-left: 10px; padding-right: 10px; padding-top: 15px; padding-bottom: 15px;}
+			#bannermod60 .bannermodtitle{  }
+			#bannerdiv60 a {color: #FFBFBF} #bannerdiv60 a:visited {color: #ffffff} #bannerdiv60 a:active {color: #ffffff} 
+	#bannermod199 {  margin-left: 0px; margin-right: 0px; margin-top: 0px; margin-bottom: 0px;}
+			#bannermod199, #bannermod199 td {}
+			#bannermod199 .bannermodcontent { padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px;}
+			#bannermod199 .bannermodtitle{  }
+			
+			</style>
+			<script src="uploaded/code/global_vars.js?09" type="text/javascript" language="javascript"></script>
+
+<link href="uploaded/dev/main_2013.css?09" rel="stylesheet" type="text/css">
+
+
+<style>
+.fsBtn_on { color:#FFF !important;
+	background-color:#336699 !important;}
+.fsBtn_on:hover {background-color:#8EB2D9 !important;}
+#dhtmlmenu_350, #dhtmlmenu_349, #dhtmlmenu_351, #dhtmlmenu_353, #dhtmlmenu_352 {top: 172px !important;}
+</style>
+
+<!--[if IE]>
+<link href="uploaded/code/ie.css" rel="stylesheet" type="text/css">
+<![endif]--></head>
+
+
+<body class="yui-skin-sam"onload="try{pageLoad()}catch(err){};try{loadmap()}catch(err){}" >
+
+<div id="bodydiv" class="text">
+
+
+<!-- Start Top Banner -->
+<div id="topcontainer">
+
+		<table id="topbanner" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td valign="top">
+
+				<div id="bannermod192">
+				
+				<div id="bannerdiv192" class="bannermodcontent">
+				<div style="clear: both;"><!-- --></div>
+
+							<div id="content192"><div><a href="./"><img style="vertical-align: top; border: 0pt none;" alt="ISA" src="uploaded/templates/isa_images/FS_ISAtopbanner_2013.png" height="113" width="1000" /></a></div></div>
+
+				<div style="clear: both;"><!-- --></div>
+				</div>
+				</div>
+
+				<div id="bannermod193" class="top_buttons">
+				
+				<div id="bannerdiv193" class="bannermodcontent">
+				<div style="clear: both;"><!-- --></div>
+
+							<div id="content193"><div class="navcontainer_2013">
+<div id="navlinks">
+<ul>
+<li><a class="fsBtn" href="page.cfm?p=349">All School</a></li>
+<li><a class="fsBtn" href="page.cfm?p=350">Lower School</a></li>
+<li><a class="fsBtn" href="page.cfm?p=351">Upper School</a></li>
+<li><a class="fsBtn" href="page.cfm?p=353">PTA</a></li>
+<li><a class="fsBtn" href="page.cfm?p=352">Extracurricular</a></li>
+</ul>
+</div>
+<div id="navsearch"><form method="get" action="searchresults.cfm"><input name="keywords" id="keywords" type="text" /><input src="uploaded/templates/isa_images/searchbutton_2013.png" alt="submit" align="top" type="image" /></form></div>
+</div></div>
+
+				<div style="clear: both;"><!-- --></div>
+				</div>
+				</div>
+
+				<div id="bannermod198" class="top_tools">
+				
+				<div id="bannerdiv198" class="bannermodcontent">
+				<div style="clear: both;"><!-- --></div>
+
+							<div id="content198"><div class="hiersect"><a href="page.cfm?p=1">Home</a> &gt; <div class=hier style='margin-left: 0'>Upper School</div></div>
+<div class="tools"><span id="tool_msg">Page Tools : </span><img src="uploaded/images/page_tools.png" usemap="#toolmap" align="absmiddle" border="0" /></div></div>
+
+				<div style="clear: both;"><!-- --></div>
+				</div>
+				</div>
+
+				</td>
+			</tr>
+		</table>
+
+<!-- end topbanner-->
+</div><!-- End topcontainer -->
+
+
+
+
+
+<!-- begin bottombanner-->
+<div id="bottomcontainer" class="text_misc">
+
+
+	<table id="bottombanner" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<td valign="top">
+
+			<div id="bannermod60" class="bottom_banner2103">
+			
+			<div id="bannerdiv60" class="bannermodcontent">
+			<div style="clear: both;"></div>
+
+					<div id="content60"><div align="center">The International School of Amsterdam - Sportlaan 45 - P.O. Box 920 - 1180 AX Amstelveen - The Netherlands - Tel. +31 20 347 1111 - Fax +31 20 347 1222 - info@isa.nl</div></div>
+
+				<div style="clear: both;"></div>
+				</div>
+				</div>
+
+			<div id="bannermod199">
+			
+			<div id="bannerdiv199" class="bannermodcontent">
+			<div style="clear: both;"></div>
+
+					<div id="content199"><map name="toolmap"><!-- Email Page --> 
+<area shape="rect" coords="1,2,17,16" href="#" onclick="emailpage(); return false;" onmouseover="document.getElementById('tool_msg').innerHTML = 'email page :';" onmouseout="document.getElementById('tool_msg').innerHTML = 'page tools :';" alt="email page" />
+ <!-- Print Page --> 
+<area shape="rect" coords="18,2,37,16" href="#" onclick="printpage(); return false;" onmouseover="document.getElementById('tool_msg').innerHTML = 'print page :';" onmouseout="document.getElementById('tool_msg').innerHTML = 'page tools :';" alt="print page" />
+ <!-- Small Type --> 
+<area shape="rect" coords="38,2,53,16" href="#" onclick="swapStyle('default',1); return false;" onmouseover="document.getElementById('tool_msg').innerHTML = 'small type :';" onmouseout="document.getElementById('tool_msg').innerHTML = 'page tools :';" alt="small type" />
+ <!-- Large Type --> 
+<area shape="rect" coords="54,2,72,16" href="#" onclick="swapStyle('large',1); return false;" onmouseover="document.getElementById('tool_msg').innerHTML = 'large type :';" onmouseout="document.getElementById('tool_msg').innerHTML = 'page tools :';" alt="large type" />
+ </map></div>
+
+				<div style="clear: both;"></div>
+				</div>
+				</div>
+
+		</td></tr>
+	</table>
+
+<!-- end bottombanner -->
+
+<!-- end bottomcontainer -->
+</div>
+
+<div id="poweredby">
+
+<div><a href="https://www.finalsite.com/" target="_blank">powered by finalsite</a></div>
+
+</div>
+</div>
+
+
+
+
+	<div id="acct_menu_div" class="acct_menus">
+		<ul>
+			
+	        	<li><a href="javascript: mySubscriptions();">Subscriptions</a></li>
+	        
+	        <li><a href="userlogin.cfm?do=logoff">Logoff</a></li>
+	    </ul>
+	</div>
+
+	
+	
+		<div id="group_menu_div" class="acct_menus">
+			<ul id="group_menu_lms_link_ul">
+				<li><a href="groups.cfm">Groups Dashboard</a></li>
+			</ul>
+			
+		</div>
+	
+
+
+	
+	<div id="bookmark_menu_div" class="acct_menus">
+		
+		<ul>
+			
+	            <li><a style="font-weight: bold;text-decoration:none;" href="javascript: bookmarkPage()"><img src="http://newimages.finalsite.com/170921/images/plusorange.gif" style="margin-right: 4px; border: none;"><span style="text-decoration:underline;">bookmark this page</span></a></li>
+	        
+	    </ul>
+	</div>
+
+	
+	
+	<div id="contacts_menu_div" class="acct_menus">
+		<ul>
+			
+		</ul>
+	</div>
+
+<div id="acct_bar" >
+	
+		<a href="javascript:void(0);" class="acct_buttons left_acct_buttons" id="acct_menu">&nbsp;Account: Sebastiaan Massizzo&nbsp;</a>
+	    <a href="page.cfm?p=1238" class="acct_buttons left_acct_buttons">&nbsp;Portal&nbsp;</a> 
+
+	    <a href="javascript:void(0);" class="acct_buttons left_acct_buttons" id="bookmark_menu">&nbsp;Bookmarks&nbsp;</a>
+	    <a href="javascript:void(0);" class="acct_buttons left_acct_buttons" id="contacts_menu" style="display:none;">&nbsp;Contacts&nbsp;</a>
+	    <a href="userlogin.cfm?do=logoff" class="acct_buttons right_acct_buttons" id="logoff_button">&nbsp;Logoff&nbsp;</a>
+		
+</div>
+
+
+
+	<!-- Quick Links Setup -->
+	<div id="ql_menu" onmouseover="fsBtn('ql_btn');" onmouseout="fsBtn('ql_btn','off');" style="visibility: hidden;">
+		<ul><li><a href="page.cfm?p=439" target="_self">Home</a></li><li><a href="page.cfm?p=363" target="_self">School Calendar</a></li><li><a href="page.cfm?p=3558" target="_self">Lower School Class Blogs</a></li><li><a href="http://community.isa.nl/groups.cfm" target="_blank">Upper School Group Dashboard</a></li><li>Veracross Parent Portal</li></ul> 
+	</div>
+	<!-- End Quick Links Setup -->
+
+					<script type="text/javascript" src="http://newjs.finalsite.com/170921/javascript/jQuery/jquery.ui.min.js"></script>
+				
+					<script type="text/javascript" src="http://newjs.finalsite.com/170921/javascript/jQuery/plugins/jGrowl/jquery.jgrowl.js"></script>
+				
+					<script type="text/javascript" src="http://newjs.finalsite.com/170921/javascript/jQuery/plugins/qtip/jquery.qtip-2.0.js"></script>
+				
+					<script type="text/javascript" src="http://newjs.finalsite.com/170921/javascript/pages/social/common.js"></script>
+				
+					<script type="text/javascript" src="http://newjs.finalsite.com/170921/javascript/accountbar.js"></script>
+				
+			<script type="text/javascript">
+				var relativeBasePath = '';
+				var siteurl = 'http://community.isa.nl';
+				var siteSSLurl = 'https://community.isa.nl';
+				var baseurl = '';
+				
+				
+			</script>
+		
+		<script type="text/javascript" charset="utf-8">
+		$j(function(){
+			$j(document.body).delegate('a','click',function(){
+				var $a,ah;
+				//Calculates the link text
+				function linkText ($obj) {
+					if( $obj.text().length > 0 ){
+						return " [" + $obj.text() + "]" ;
+					}else if( $obj.find('img').length > 0 ){
+						return " [img:" + $obj.find('img').attr('src') + "]";
+					}else{
+						return "";
+					}
+				}
+				$a = $j(this);
+				ah = $a.attr('href');
+
+				// _trackEvent format
+				//_gaq.push(['_trackEvent', 'category', 'action', 'optional_label', 'optional_value']);
+				// <category name>, url, trackingpath + [linked text or img src]
+
+				if(ah && ah.indexOf('page.cfm') < 0 && ah.indexOf('javascript:') < 0 && ah.indexOf('#') != 0){
+					if(ah.indexOf('mailto') == 0){
+						//Mail to link (mailme links are tracked through mailMe() )
+						_gaq.push(['_trackEvent', 'email links', ah, trackingpath + linkText( $a )]);
+					}else if(ah.indexOf('http') == 0 && ah.indexOf(document.location.host) < 0){
+						//External link
+						_gaq.push(['_trackEvent', 'external links', ah, trackingpath + linkText( $a )]);
+					}else if(ah.indexOf('file.cfm') >= 0 || !ah.match(/\.cfm$|\.html?$/i)){
+						//Assuming these are file downloads
+						_gaq.push(['_trackEvent', 'file downloads', ah , trackingpath + linkText( $a )]);
+					}
+				}
+			});
+		}); //end load function
+		</script>
+
+	
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"errorBeacon":"bam.nr-data.net","licenseKey":"17f1641df3","agent":"","beacon":"bam.nr-data.net","applicationTime":155,"applicationID":"1144515,3219496,1110036","transactionName":"b1wDZ0dSXBUFBRZZC1YWIkZGR10LSxYDVwEWWgdeGkBGBwoCA0IA","queueTime":0}</script> 
+
+
+</body>
+</html>
