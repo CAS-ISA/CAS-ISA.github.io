@@ -3,11 +3,11 @@
 
 /*#topbanner{height:230px;}*/
 
-h1{font-family: Arial, Helvetica, sans-serif; font-size:16px; margin:0; }
+h1{font-family: Arial, Helvetica, sans-serif; font-size:36px; margin:0; }
 
 #text1 h1, #text2 h1{
 display:block;
-background:#00B288;
+background:#0B2880;
 color:#fff !important; 
 margin:0;
 padding:10px;
